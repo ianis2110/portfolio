@@ -15,18 +15,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.font awesome.com/9ad9a54963.js"
-    crossorigin"anonymous"></script>
+    crossorigin="anonymous"
+    ></script>
     <title>contact</title>
 </head>
 <body>
     <!--Navigation bar section-->
-    <nav> 
-        <a href="project.html">project</a>
-        <a href="services.html">services</a>
-        <a href="about.html">about</a>
-        <a href="blog.html">blog</a>
-        <a href="contact.html">contact</a>
-        <a href="">resume</a>
+    <nav class="navbar">
+        <a href="" class="nav-link">project</a>
+        <a href="" class="nav-link">services</a>
+        <a href="" class="nav-link">about</a>
+        <a href="" class="nav-link">blog</a>
+        <a href="" class="nav-link">contact</a>
+        <a href="" class="nav-link">resume</a>
         </nav>
        <!--Hero section-->
        <header>
@@ -50,19 +51,21 @@
              <div>
                  <label for="email">email</label>
                  <input type=gachigiian@gmai.com  size="30/>"
-         </div>
+           </div>
          <div>
              <label>for="subject">subject</label>
              <input type="text" name="subject" id="subject"/>
          </div>
         <div>
+
+            
             <label for="product">product</label>
             <select name-"product" id="">product
                 <option value="web">web application</option>
                 <option value="desktop">desktop application</option>
                 <option value="mobile">mobile application</option>
                 <option value="other">other</option>
-
+ 
             </select>
         </div>
          <div>
@@ -84,3 +87,19 @@
        </footer>
 </body>
 </html>
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+ a {
+     text-decoration: none;
+ }
+body {
+    display: flex;
+    flex-direction:column;
+    min-height:100vh;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 50px;
+    background-color: black;
+}
